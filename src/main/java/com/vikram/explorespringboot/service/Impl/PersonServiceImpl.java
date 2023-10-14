@@ -1,5 +1,6 @@
 package com.vikram.explorespringboot.service.Impl;
 
+import com.vikram.explorespringboot.entity.Gender;
 import com.vikram.explorespringboot.entity.Person;
 import com.vikram.explorespringboot.repository.PersonRepository;
 import com.vikram.explorespringboot.service.PersonService;
@@ -30,5 +31,15 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public List<Person> getPersonList() {
         return personRepository.findAll();
+    }
+
+    @Override
+    public List<Person> getPersonByAge(int age) {
+        return personRepository.findPersonsByAge(age);
+    }
+
+    @Override
+    public List<Person> getPersonByGender(Gender gender) {
+        return personRepository.findPersonsByGender(gender);
     }
 }
