@@ -18,7 +18,6 @@ public class Person {
 
     private String name;
 
-
     @Enumerated(EnumType.ORDINAL)
     private Gender gender;
 
