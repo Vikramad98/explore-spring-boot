@@ -1,9 +1,9 @@
-package com.vikram.explorespringboot.service.Impl;
+package com.vikram.service.impl;
 
-import com.vikram.explorespringboot.entity.Gender;
-import com.vikram.explorespringboot.entity.Person;
-import com.vikram.explorespringboot.repository.PersonRepository;
-import com.vikram.explorespringboot.service.PersonService;
+import com.vikram.entity.Gender;
+import com.vikram.entity.Person;
+import com.vikram.repository.PersonRepository;
+import com.vikram.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

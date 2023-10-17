@@ -1,4 +1,4 @@
-package com.vikram.explorespringboot.entity;
+package com.vikram.entity;
 
 
 import jakarta.persistence.*;

@@ -1,7 +1,5 @@
-package com.vikram.explorespringboot.entity;
+package com.vikram.entity;
 
-import com.vikram.explorespringboot.entity.Gender;
-import com.vikram.explorespringboot.entity.Person;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

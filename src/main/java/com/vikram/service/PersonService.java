@@ -1,7 +1,7 @@
-package com.vikram.explorespringboot.service;
+package com.vikram.service;
 
-import com.vikram.explorespringboot.entity.Gender;
-import com.vikram.explorespringboot.entity.Person;
+import com.vikram.entity.Gender;
+import com.vikram.entity.Person;
 
 import java.util.List;
 import java.util.Optional;

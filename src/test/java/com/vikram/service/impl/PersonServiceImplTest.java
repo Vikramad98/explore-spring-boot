@@ -1,8 +1,8 @@
-package com.vikram.explorespringboot.service.Impl;
+package com.vikram.service.impl;
 
-import com.vikram.explorespringboot.entity.Gender;
-import com.vikram.explorespringboot.entity.Person;
-import com.vikram.explorespringboot.repository.PersonRepository;
+import com.vikram.entity.Gender;
+import com.vikram.entity.Person;
+import com.vikram.repository.PersonRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class PersonServiceImplTest {
+class PersonServiceImplTest {
 
     @InjectMocks
     private PersonServiceImpl personService;
