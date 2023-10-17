@@ -1,8 +1,8 @@
-package com.vikram.explorespringboot.controller;
+package com.vikram.controller;
 
-import com.vikram.explorespringboot.entity.Gender;
-import com.vikram.explorespringboot.entity.Person;
-import com.vikram.explorespringboot.service.Impl.PersonServiceImpl;
+import com.vikram.entity.Gender;
+import com.vikram.entity.Person;
+import com.vikram.service.impl.PersonServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

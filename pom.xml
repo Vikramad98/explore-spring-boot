@@ -91,7 +91,11 @@
 			<artifactId>jacoco-maven-plugin</artifactId>
 			<version>0.8.10</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.sonarsource.scanner.maven</groupId>
+			<artifactId>sonar-maven-plugin</artifactId>
+			<version>3.10.0.2594</version>
+		</dependency>
 
 	</dependencies>
 
@@ -115,13 +119,13 @@
 				<version>1.15.1</version>
 				<configuration>
 					<targetClasses>
-						<param>com.vikram.explorespringboot.**</param>
+						<param>com.vikram.JavaSpringBoot.**</param>
 					</targetClasses>
 					<targetTests>
-						<param>com.vikram.explorespringboot.**</param>
+						<param>com.vikram.JavaSpringBoot.**</param>
 					</targetTests>
 					<excludedClasses>
-						<param>com.vikram.explorespringboot.entity.**</param>
+						<param>com.vikram.JavaSpringBoot.entity.**</param>
 					</excludedClasses>
 				</configuration>
 
@@ -151,6 +155,11 @@
 						<exclude>**/ExploreSpringBootApplication.class</exclude>
 					</excludes>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.10.0.2594</version>
 			</plugin>
 		</plugins>
 	</build>
